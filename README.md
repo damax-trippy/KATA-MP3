@@ -15,19 +15,12 @@ sudo apt install git python3 python3-venv ffmpeg       # Debian / Ubuntu / Mint
 # sudo zypper install git python3 ffmpeg               # openSUSE
 
 # Then install KATA-MP3
-git clone git@github.com:damax-trippy/KATA-MP3.git ~/KATA-MP3 && cd ~/KATA-MP3 && ./install.sh
+git clone https://github.com/damax-trippy/KATA-MP3.git ~/KATA-MP3 && cd ~/KATA-MP3 && chmod +x install.sh && ./install.sh
 ```
 
 That's it. The installer sets up the virtualenv and adds **KATA-MP3** to
 your app menu.
 
-> **SSH clone failed?** Use the HTTPS URL instead:
-> ```bash
-> git clone https://github.com/damax-trippy/KATA-MP3.git ~/KATA-MP3 && cd ~/KATA-MP3 && ./install.sh
-> ```
-
-**What you need:** git, python3, python3-venv, ffmpeg.
-The command above installs all four for you.
 
 ## 2. Manual Install
 
