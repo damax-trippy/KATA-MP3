@@ -15,7 +15,7 @@ sudo apt install git python3 python3-venv ffmpeg       # Debian / Ubuntu / Mint
 # sudo zypper install git python3 ffmpeg               # openSUSE
 
 # Then install KATA-MP3
-git clone https://github.com/damax-trippy/KATA-MP3.git ~/KATA-MP3 && cd ~/KATA-MP3 && ./install.sh
+git clone git@github.com:damax-trippy/KATA-MP3.git ~/KATA-MP3 && cd ~/KATA-MP3 && ./install.sh
 ```
 
 That's it. The installer sets up the virtualenv and adds **KATA-MP3** to
