@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=KATA-MP3
+Comment=Download YouTube audio as MP3
+Exec=__VENV_PYTHON__ __SCRIPT_DIR__/main.py
+Path=__SCRIPT_DIR__
+Icon=__ICON__
+Terminal=false
+Categories=AudioVideo;Audio;Utility;
+StartupNotify=true
