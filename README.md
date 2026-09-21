@@ -3,6 +3,8 @@
 A simple Linux desktop app that downloads YouTube audio as MP3.
 Paste a URL, pick a quality, hit download.
 
+![image alt](https://github.com/damax-trippy/KATA-MP3/blob/32520427a3985415534a0cc2e4492a680c9d7429/app-ui.png)
+
 ## 1. Quick Install (one command)
 
 Copy and paste this whole block into your terminal:
